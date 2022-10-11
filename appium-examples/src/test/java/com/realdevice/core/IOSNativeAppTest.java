@@ -61,7 +61,7 @@ public class IOSNativeAppTest {
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("automationName", "XCuiTest");
         //Allocate any avilable iPhone device with version 14
-        capabilities.setCapability("appium:deviceName", "iPhone.*");
+        capabilities.setCapability("appium:deviceName", "iPhone_11_IOS16_beta_real_us");
         capabilities.setCapability("appium:platformVersion", "14");
         //      You can use  storage:filename=" +appName if you uploaded your app to Saucd Storage
         //      capabilities.setCapability("app", "storage:filename=" +appName);
